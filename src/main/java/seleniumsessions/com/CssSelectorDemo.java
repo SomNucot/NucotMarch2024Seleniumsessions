@@ -66,7 +66,7 @@ public class CssSelectorDemo {
 	accessories.click();
 
 
-			Thread.sleep(3000);
+	Thread.sleep(3000);
 			
 			
 			
