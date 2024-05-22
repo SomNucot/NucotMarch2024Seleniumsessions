@@ -2,72 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T22:08:42 IST" name="Default suite" finished-at="2024-05-21T22:08:42 IST" duration-ms="72">
+  <suite started-at="2024-05-22T21:20:15 IST" name="Default suite" finished-at="2024-05-22T21:20:28 IST" duration-ms="12374">
     <groups>
     </groups>
-    <test started-at="2024-05-21T22:08:42 IST" name="Default test" finished-at="2024-05-21T22:08:42 IST" duration-ms="72">
-      <class name="TestNGDemo.com.AnnoationsDemo">
-        <test-method is-config="true" signature="test1()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test1" finished-at="2024-05-21T22:08:42 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-05-22T21:20:15 IST" name="Default test" finished-at="2024-05-22T21:20:28 IST" duration-ms="12374">
+      <class name="TestNGDemo.com.AnnotationDemo2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.AnnotationDemo2@73e22a3d]" started-at="2024-05-22T21:20:04 IST" name="launchBrowser" finished-at="2024-05-22T21:20:15 IST" duration-ms="10960" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="test2()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test2" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="getCurrentUrlOfPage()[pri:0, instance:TestNGDemo.com.AnnotationDemo2@73e22a3d]" started-at="2024-05-22T21:20:15 IST" name="getCurrentUrlOfPage" finished-at="2024-05-22T21:20:15 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="test3()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test3" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- getCurrentUrlOfPage -->
+        <test-method signature="getTitleOfPage()[pri:2, instance:TestNGDemo.com.AnnotationDemo2@73e22a3d]" started-at="2024-05-22T21:20:15 IST" name="getTitleOfPage" finished-at="2024-05-22T21:20:15 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="test4()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test4" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- getTitleOfPage -->
+        <test-method signature="doLogin()[pri:3, instance:TestNGDemo.com.AnnotationDemo2@73e22a3d]" started-at="2024-05-22T21:20:15 IST" name="doLogin" finished-at="2024-05-22T21:20:28 IST" duration-ms="12261" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="aaa()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="aaa" finished-at="2024-05-21T22:08:42 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.AnnotationDemo2@73e22a3d]" started-at="2024-05-22T21:20:28 IST" name="closeBrowser" finished-at="2024-05-22T21:20:28 IST" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aaa -->
-        <test-method is-config="true" signature="test6()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test6" finished-at="2024-05-21T22:08:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method is-config="true" signature="test4()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test4" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="ggg()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="ggg" finished-at="2024-05-21T22:08:42 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ggg -->
-        <test-method is-config="true" signature="test6()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test6" finished-at="2024-05-21T22:08:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method signature="zzz()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="zzz" finished-at="2024-05-21T22:08:42 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- zzz -->
-        <test-method is-config="true" signature="test4()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test4" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method is-config="true" signature="test6()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test6" finished-at="2024-05-21T22:08:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method is-config="true" signature="test7()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test7" finished-at="2024-05-21T22:08:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method is-config="true" signature="test8()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test8" finished-at="2024-05-21T22:08:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8 -->
-        <test-method is-config="true" signature="test9()[pri:0, instance:TestNGDemo.com.AnnoationsDemo@28f2a10f]" started-at="2024-05-21T22:08:42 IST" name="test9" finished-at="2024-05-21T22:08:42 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test9 -->
-      </class> <!-- TestNGDemo.com.AnnoationsDemo -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGDemo.com.AnnotationDemo2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
