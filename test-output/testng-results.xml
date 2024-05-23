@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T08:16:29 IST" name="Default suite" finished-at="2024-05-23T08:17:10 IST" duration-ms="40439">
+  <suite started-at="2024-05-23T21:34:04 IST" name="Default suite" finished-at="2024-05-23T21:34:37 IST" duration-ms="33211">
     <groups>
     </groups>
-    <test started-at="2024-05-23T08:16:29 IST" name="Default test" finished-at="2024-05-23T08:17:10 IST" duration-ms="40439">
-      <class name="TestNGDemo.com.nnotationDemo4">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:16:29 IST" name="launchBrowser" finished-at="2024-05-23T08:16:40 IST" duration-ms="10825" status="PASS">
+    <test started-at="2024-05-23T21:34:04 IST" name="Default test" finished-at="2024-05-23T21:34:37 IST" duration-ms="33211">
+      <class name="TestNGDemo.com.Handlingpopupjsprompt">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:04 IST" name="launchBrowser" finished-at="2024-05-23T21:34:15 IST" duration-ms="11340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="getTitleOfPage()[pri:1, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:16:40 IST" name="getTitleOfPage" finished-at="2024-05-23T08:16:40 IST" duration-ms="40" status="PASS">
+        <test-method signature="getTitleOfPage()[pri:1, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:15 IST" name="getTitleOfPage" finished-at="2024-05-23T21:34:15 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitleOfPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:16:40 IST" name="closeBrowser" finished-at="2024-05-23T08:16:40 IST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:15 IST" name="closeBrowser" finished-at="2024-05-23T21:34:15 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:16:40 IST" name="launchBrowser" finished-at="2024-05-23T08:16:49 IST" duration-ms="8471" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:15 IST" name="launchBrowser" finished-at="2024-05-23T21:34:24 IST" duration-ms="8840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:16:49 IST" name="doLogin" finished-at="2024-05-23T08:17:01 IST" duration-ms="12172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:17:01 IST" name="closeBrowser" finished-at="2024-05-23T08:17:01 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:17:01 IST" name="launchBrowser" finished-at="2024-05-23T08:17:10 IST" duration-ms="8501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="getCurrentUrlOfPage()[pri:3, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:17:10 IST" name="getCurrentUrlOfPage" finished-at="2024-05-23T08:17:10 IST" duration-ms="43" status="PASS">
+        <test-method signature="getCurrentUrlOfPage()[pri:2, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:24 IST" name="getCurrentUrlOfPage" finished-at="2024-05-23T21:34:24 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentUrlOfPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.nnotationDemo4@57af006c]" started-at="2024-05-23T08:17:10 IST" name="closeBrowser" finished-at="2024-05-23T08:17:10 IST" duration-ms="101" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:24 IST" name="closeBrowser" finished-at="2024-05-23T21:34:24 IST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGDemo.com.nnotationDemo4 -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:24 IST" name="launchBrowser" finished-at="2024-05-23T21:34:33 IST" duration-ms="8895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="handlingBrowserjspopups()[pri:3, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:33 IST" name="handlingBrowserjspopups" finished-at="2024-05-23T21:34:37 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingBrowserjspopups -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.Handlingpopupjsprompt@57af006c]" started-at="2024-05-23T21:34:37 IST" name="closeBrowser" finished-at="2024-05-23T21:34:37 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGDemo.com.Handlingpopupjsprompt -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
