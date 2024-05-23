@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AnnotationDemo2 {
+public class AnnotationDemo3 {
 	
-	static WebDriver odriver;
+static WebDriver odriver;
 	
 	@BeforeSuite
 	void launchBrowser()
@@ -40,7 +40,7 @@ public class AnnotationDemo2 {
 		
 	}
 	
-	@Test
+	@Test(priority=3)
 	void getCurrentUrlOfPage()
 	{
 		
@@ -49,7 +49,7 @@ public class AnnotationDemo2 {
 		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	void doLogin() throws InterruptedException
 	{
 		
@@ -76,14 +76,6 @@ public class AnnotationDemo2 {
 		odriver.quit();
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

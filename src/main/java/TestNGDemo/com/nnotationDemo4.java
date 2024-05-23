@@ -4,17 +4,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AnnotationDemo2 {
+public class nnotationDemo4 {
 	
-	static WebDriver odriver;
 	
-	@BeforeSuite
+static WebDriver odriver;
+	
+	@BeforeMethod
 	void launchBrowser()
 	{
 		WebDriverManager.chromedriver().setup();
@@ -40,7 +43,7 @@ public class AnnotationDemo2 {
 		
 	}
 	
-	@Test
+	@Test(priority=3)
 	void getCurrentUrlOfPage()
 	{
 		
@@ -49,7 +52,7 @@ public class AnnotationDemo2 {
 		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	void doLogin() throws InterruptedException
 	{
 		
@@ -70,22 +73,12 @@ public class AnnotationDemo2 {
 		
 	}
 	
-	@AfterSuite
+	@AfterMethod
 	void closeBrowser()
 	{
 		odriver.quit();
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 
