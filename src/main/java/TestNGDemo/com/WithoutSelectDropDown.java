@@ -1,17 +1,18 @@
 package TestNGDemo.com;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DropDownDemo2 {
+public class WithoutSelectDropDown {
 	
 	
 static WebDriver odriver;
@@ -28,7 +29,7 @@ static WebDriver odriver;
 		odriver.manage().deleteAllCookies();
 		
 		//2.Open the App
-		odriver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu/");
+		odriver.get("https://demo.mobiscroll.com/select/country-picker");
 		
 		
 	}
@@ -40,21 +41,30 @@ static WebDriver odriver;
 	void dropDownHandling() throws InterruptedException
 	{
 		
-		//-->//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//p//select
-		WebElement  dropDownMenu=odriver.findElement(By.xpath("//select[1]"));
-		dropDownMenu.click();
 		
-		Select  olselect=new Select(dropDownMenu);
+		WebElement dropDown=odriver.findElement(By.xpath("//input[@id='demo155-country-picker']"));
+		dropDown.click();
 		
-		//olselect.selectByIndex(25);//
+		List<WebElement>alloptionsinDropDown=odriver.findElements(By.cssSelector("div.mbsc-scrollview-scroll"));
+	/*	
+		for(int i=0;i<alloptionsinDropDown.size();i++)
+		{
+			
+			System.out.println(alloptionsinDropDown.get(i).getText());
+			
+		}
 		
-		//olselect.selectByValue("IND");
-		olselect.selectByVisibleText("Singapore");
-		
-		Thread.sleep(3000);
+	*/
 		
 		
-	
+		
+		for(WebElement newvalue:alloptionsinDropDown)
+		{
+			
+			System.out.println(newvalue.getSize());
+			System.out.println(newvalue.getText());
+			
+		}
 		
 		
 	}
@@ -65,6 +75,7 @@ static WebDriver odriver;
 		odriver.quit();
 		
 	}
+	
 	
 
 }

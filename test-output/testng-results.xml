@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-27T21:24:28 IST" name="Default suite" finished-at="2024-05-27T21:25:08 IST" duration-ms="39522">
+  <suite started-at="2024-05-30T21:36:08 IST" name="Default suite" finished-at="2024-05-30T21:37:00 IST" duration-ms="51703">
     <groups>
     </groups>
-    <test started-at="2024-05-27T21:24:28 IST" name="Default test" finished-at="2024-05-27T21:25:08 IST" duration-ms="39522">
-      <class name="TestNGDemo.com.DropDownDemo2">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.DropDownDemo2@57af006c]" started-at="2024-05-27T21:24:28 IST" name="launchBrowser" finished-at="2024-05-27T21:25:02 IST" duration-ms="33852" status="PASS">
+    <test started-at="2024-05-30T21:36:08 IST" name="Default test" finished-at="2024-05-30T21:37:00 IST" duration-ms="51703">
+      <class name="TestNGDemo.com.WithoutSelectDropDown">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.WithoutSelectDropDown@57af006c]" started-at="2024-05-30T21:36:08 IST" name="launchBrowser" finished-at="2024-05-30T21:36:44 IST" duration-ms="35513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="dropDownHandling()[pri:0, instance:TestNGDemo.com.DropDownDemo2@57af006c]" started-at="2024-05-27T21:25:02 IST" name="dropDownHandling" finished-at="2024-05-27T21:25:08 IST" duration-ms="5490" status="PASS">
+        <test-method signature="dropDownHandling()[pri:0, instance:TestNGDemo.com.WithoutSelectDropDown@57af006c]" started-at="2024-05-30T21:36:44 IST" name="dropDownHandling" finished-at="2024-05-30T21:36:59 IST" duration-ms="15580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropDownHandling -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.DropDownDemo2@57af006c]" started-at="2024-05-27T21:25:08 IST" name="closeBrowser" finished-at="2024-05-27T21:25:08 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.WithoutSelectDropDown@57af006c]" started-at="2024-05-30T21:36:59 IST" name="closeBrowser" finished-at="2024-05-30T21:37:00 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGDemo.com.DropDownDemo2 -->
+      </class> <!-- TestNGDemo.com.WithoutSelectDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
