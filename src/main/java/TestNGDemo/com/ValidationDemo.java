@@ -4,17 +4,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class invocatiobDemo {
+public class ValidationDemo {
 	
 	
+//Testng-- Assertions--->Validations
 static WebDriver odriver;
 	
 	@BeforeMethod
@@ -35,39 +35,39 @@ static WebDriver odriver;
 		
 	}
 	
-
-	@Test(invocationCount=5)
-	void doLogin() throws InterruptedException
+	@Test
+	void titleOfThePage()
 	{
+		
+		
+		String actualTilte=odriver.getTitle();
+		String expectedTitle="OrangeHRM";
+		Assert.assertEquals(actualTilte, expectedTitle);
 
-		Thread.sleep(3000);
+	}
+	
+	@Test
+	void currentUrlOfThePage()
+	{
 		
-		WebElement userName123=odriver.findElement(By.name("username"));
 		
-		userName123.sendKeys("Admin");
+		String actualUrl=odriver.getCurrentUrl();
+		String expectedUrl="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+		Assert.assertEquals(actualUrl, expectedUrl);
 		
-		Thread.sleep(3000);
-		WebElement passWord123=odriver.findElement(By.name("password"));
-		
-		passWord123.sendKeys("admin123");
-		
-		Thread.sleep(3000);
-		
-		WebElement logbtn=odriver.findElement(By.xpath("//button[@type='submit']"));
-		logbtn.click();
-		
+
 	}
 	
 	
 	
-	
-	
+
 	@AfterMethod
 	void closeBrowser()
 	{
 		odriver.quit();
 		
 	}
+	
 	
 	
 	

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGDemo.com.DependsOnMethodDemo">
+      <class name="TestNGDemo.com.AssertionDemo2">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="homePage"/>
-          <include name="doLogin"/>
           <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="titleOfThePage"/>
         </methods>
-      </class> <!-- TestNGDemo.com.DependsOnMethodDemo -->
+      </class> <!-- TestNGDemo.com.AssertionDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

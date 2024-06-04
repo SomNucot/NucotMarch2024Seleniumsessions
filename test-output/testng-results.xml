@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T21:28:50 IST" name="Default suite" finished-at="2024-06-03T21:29:52 IST" duration-ms="61489">
+  <suite started-at="2024-06-04T21:25:42 IST" name="Default suite" finished-at="2024-06-04T21:26:15 IST" duration-ms="32637">
     <groups>
     </groups>
-    <test started-at="2024-06-03T21:28:50 IST" name="Default test" finished-at="2024-06-03T21:29:52 IST" duration-ms="61489">
-      <class name="TestNGDemo.com.invocatiobDemo">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:28:50 IST" name="launchBrowser" finished-at="2024-06-03T21:28:59 IST" duration-ms="9015" status="PASS">
+    <test started-at="2024-06-04T21:25:42 IST" name="Default test" finished-at="2024-06-04T21:26:15 IST" duration-ms="32637">
+      <class name="TestNGDemo.com.AssertionDemo2">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:25:42 IST" name="launchBrowser" finished-at="2024-06-04T21:26:01 IST" duration-ms="18924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:28:59 IST" name="doLogin" finished-at="2024-06-03T21:29:10 IST" duration-ms="10630" status="PASS">
+        <test-method signature="currentUrlOfThePage()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="currentUrlOfThePage" finished-at="2024-06-04T21:26:01 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:10 IST" name="closeBrowser" finished-at="2024-06-03T21:29:11 IST" duration-ms="805" status="PASS">
+        </test-method> <!-- currentUrlOfThePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="closeBrowser" finished-at="2024-06-04T21:26:01 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:11 IST" name="launchBrowser" finished-at="2024-06-03T21:29:23 IST" duration-ms="12326" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="launchBrowser" finished-at="2024-06-04T21:26:14 IST" duration-ms="13389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:23 IST" name="doLogin" finished-at="2024-06-03T21:29:33 IST" duration-ms="10022" status="PASS">
+        <test-method signature="titleOfThePage()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:14 IST" name="titleOfThePage" finished-at="2024-06-04T21:26:14 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:33 IST" name="closeBrowser" finished-at="2024-06-03T21:29:34 IST" duration-ms="651" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:34 IST" name="launchBrowser" finished-at="2024-06-03T21:29:41 IST" duration-ms="7158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:41 IST" name="doLogin" finished-at="2024-06-03T21:29:51 IST" duration-ms="10175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.invocatiobDemo@57af006c]" started-at="2024-06-03T21:29:51 IST" name="closeBrowser" finished-at="2024-06-03T21:29:52 IST" duration-ms="635" status="PASS">
+        </test-method> <!-- titleOfThePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:14 IST" name="closeBrowser" finished-at="2024-06-04T21:26:15 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGDemo.com.invocatiobDemo -->
+      </class> <!-- TestNGDemo.com.AssertionDemo2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
