@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-04T21:25:42 IST" name="Default suite" finished-at="2024-06-04T21:26:15 IST" duration-ms="32637">
+  <suite started-at="2024-06-20T21:26:36 IST" name="Default suite" finished-at="2024-06-20T21:27:08 IST" duration-ms="31884">
     <groups>
     </groups>
-    <test started-at="2024-06-04T21:25:42 IST" name="Default test" finished-at="2024-06-04T21:26:15 IST" duration-ms="32637">
-      <class name="TestNGDemo.com.AssertionDemo2">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:25:42 IST" name="launchBrowser" finished-at="2024-06-04T21:26:01 IST" duration-ms="18924" status="PASS">
+    <test started-at="2024-06-20T21:26:36 IST" name="Default test" finished-at="2024-06-20T21:27:08 IST" duration-ms="31884">
+      <class name="TestNGDemo.com.EndTooEndTestingApp">
+        <test-method is-config="true" signature="lauchApp()[pri:0, instance:TestNGDemo.com.EndTooEndTestingApp@73e22a3d]" started-at="2024-06-20T21:26:26 IST" name="lauchApp" finished-at="2024-06-20T21:26:36 IST" duration-ms="10265" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="currentUrlOfThePage()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="currentUrlOfThePage" finished-at="2024-06-04T21:26:01 IST" duration-ms="41" status="PASS">
+        </test-method> <!-- lauchApp -->
+        <test-method signature="registerUser()[pri:1, instance:TestNGDemo.com.EndTooEndTestingApp@73e22a3d]" started-at="2024-06-20T21:26:36 IST" name="registerUser" finished-at="2024-06-20T21:26:55 IST" duration-ms="18367" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- currentUrlOfThePage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="closeBrowser" finished-at="2024-06-04T21:26:01 IST" duration-ms="95" status="PASS">
+        </test-method> <!-- registerUser -->
+        <test-method signature="loginUser()[pri:2, instance:TestNGDemo.com.EndTooEndTestingApp@73e22a3d]" started-at="2024-06-20T21:26:55 IST" name="loginUser" finished-at="2024-06-20T21:27:00 IST" duration-ms="5817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:01 IST" name="launchBrowser" finished-at="2024-06-04T21:26:14 IST" duration-ms="13389" status="PASS">
+        </test-method> <!-- loginUser -->
+        <test-method signature="addingAddressOfUser()[pri:3, instance:TestNGDemo.com.EndTooEndTestingApp@73e22a3d]" started-at="2024-06-20T21:27:00 IST" name="addingAddressOfUser" finished-at="2024-06-20T21:27:08 IST" duration-ms="7635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="titleOfThePage()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:14 IST" name="titleOfThePage" finished-at="2024-06-04T21:26:14 IST" duration-ms="46" status="PASS">
+        </test-method> <!-- addingAddressOfUser -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestNGDemo.com.EndTooEndTestingApp@73e22a3d]" started-at="2024-06-20T21:27:08 IST" name="closeApp" finished-at="2024-06-20T21:27:09 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleOfThePage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDemo.com.AssertionDemo2@57af006c]" started-at="2024-06-04T21:26:14 IST" name="closeBrowser" finished-at="2024-06-04T21:26:15 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGDemo.com.AssertionDemo2 -->
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestNGDemo.com.EndTooEndTestingApp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
