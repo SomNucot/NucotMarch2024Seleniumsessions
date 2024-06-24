@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGDemo.com.EndTooEndTestingApp">
+      <class name="MouseandKeyboardActions.com.DragAndDropDemo">
         <methods>
-          <include name="registerUser"/>
-          <include name="addingAddressOfUser"/>
           <include name="lauchApp"/>
           <include name="closeApp"/>
+          <include name="dragAndDropTestCase"/>
         </methods>
-      </class> <!-- TestNGDemo.com.EndTooEndTestingApp -->
+      </class> <!-- MouseandKeyboardActions.com.DragAndDropDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
