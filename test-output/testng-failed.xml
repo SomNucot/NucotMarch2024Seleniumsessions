@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MouseandKeyboardActions.com.DragAndDropDemo">
+      <class name="MouseandKeyboardActions.com.ContextClickDemo">
         <methods>
           <include name="lauchApp"/>
           <include name="closeApp"/>
           <include name="dragAndDropTestCase"/>
         </methods>
-      </class> <!-- MouseandKeyboardActions.com.DragAndDropDemo -->
+      </class> <!-- MouseandKeyboardActions.com.ContextClickDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
